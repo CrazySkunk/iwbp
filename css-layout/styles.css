@@ -46,7 +46,12 @@ nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
+    grid-column-gap: 100px;
     align-items: flex-end;
+}
+
+nav ul li a {
+    padding: 10px auto;
 }
 
 nav a {
