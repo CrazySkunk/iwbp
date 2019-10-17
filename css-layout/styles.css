@@ -60,6 +60,11 @@ nav a:hover {
     background-color: navy;
 }
 
+.space {
+    margin: -px 0px 0px 0px;
+    padding: 10px;
+}
+
 
 /*.wrapper {
     display: grid;
@@ -82,7 +87,8 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 1px;
-    margin: 10px;
+    grid-column-gap: 1px;
+    margin: 0px;
     padding: 10px;
     height: 70px;
 }
@@ -90,5 +96,5 @@ nav a:hover {
 .feature {
     width: 200px;
     float: left;
-    padding: 30px;
+    padding: 10px;
 }
