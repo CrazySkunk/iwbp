@@ -11,7 +11,7 @@ describe("basics", function() {
     describe("test example", function() {
         it("should run without errors", function() {
             /* ADD CODE HERE */
-
+            const a = true;
             expect(a).to.equal(true);
         });
     });
@@ -19,7 +19,7 @@ describe("basics", function() {
     describe("test 1", function() {
         it("should run without errors", function() {
             /* ADD CODE HERE */
-
+        var a;
             expect(typeof a).to.equal("undefined");
             expect(a).to.equal(undefined);
         });
