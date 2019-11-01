@@ -28,7 +28,7 @@ describe("basics", function() {
     describe("test 2", function() {
         it("should run without errors", function() {
             /* ADD CODE HERE */
-
+        var a;
             expect(typeof a).to.equal("undefined");
             expect(a == null).to.equal(true);
             expect(a === null).to.equal(false);
@@ -40,18 +40,19 @@ describe("basics", function() {
             expect(a).to.equal(undefined);
 
             /* ADD CODE HERE */
+            var a;
         });
     });
 
     describe("test 4", function() {
         it("should run without errors", function() {
             /* ADD CODE HERE */
-
+            let b=tr;
             expect(b == 3).to.equal(true);
             expect(b === 3).to.equal(true);
 
             /* ADD CODE HERE */
-
+            var c=true;
             expect(c == 3).to.equal(true);
             expect(c === 3).to.equal(false);
         });
@@ -60,7 +61,7 @@ describe("basics", function() {
     describe("test 5", function() {
         it("should run without errors", function() {
             /* ADD CODE HERE */
-
+            const a=3;
             expect(a.length).to.equal(3);
             expect(Number(a)).to.equal(1000000);
         });
